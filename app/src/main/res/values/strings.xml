@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Kyrsovaya_Shandirov</string>
+    <string name="greetingText">Welcome!</string>
+    <string name="loginText">Login</string>
+    <string name="passwordText">Password</string>
+    <string name="enterButton">Enter</string>
+    <string name="myInfo">Developer Shandirov RIBO-02-21</string>
+
+
+    <string name="POE">POE calculation</string>
+    <string name="cableType">enter cable type</string>
+    <string name="voltage">enter voltage</string>
+    <string name="volts">Volts</string>
+    <string name="cableLength">enter cabel length</string>
+    <string name="devices">enter devices count</string>
+    <string name="calculate">Calculate</string>
+
+
+
+    <string name="hosts">Hosts number = </string>
+    <string name="power">POE power </string>
+    <string name="vatt"> watt </string>
+    <string name="go">Go</string>
+
+    <string name="answer">Answer = </string>
+    <string name="multicalculator">Multicalculator</string>
+    <string name="passwordgeneration">Password generation</string>
+    <string name="network">Network</string>
+
+    <string name="datatransfer">Data transfer time</string>
+    <string name="CabelPOE">Cabel POE</string>
+    <string name="networkcalculation">Network calculation</string>
+    <string name="typein">Type in I.P. address</string>
+
+    <string name="typemask">Type in subnet mask</string>
+    <string name="addressesnumber">Addresses number =</string>
+    <string name="generation">Generation</string>
+    <string name="copy">Copy</string>
+
+
+</resources>

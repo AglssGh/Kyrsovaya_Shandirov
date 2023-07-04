@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <EditText
+        android:id="@+id/t168"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDot"
+        android:layout_alignStart="@+id/centralDot"
+        android:layout_marginStart="-33dp"
+        android:hint="168"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t168S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDotS"
+        android:layout_alignStart="@+id/centralDotS"
+        android:layout_marginStart="-33dp"
+        android:hint="255"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t192"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstDot"
+        android:layout_alignStart="@+id/firstDot"
+        android:layout_marginStart="-34dp"
+        android:hint="192"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/t192S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstDotS"
+        android:layout_alignStart="@+id/firstDotS"
+        android:layout_marginStart="-34dp"
+        android:hint="255"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDot"
+        android:layout_alignEnd="@+id/centralDot"
+        android:layout_marginStart="-47dp"
+        android:layout_marginEnd="-32dp"
+        android:hint="000"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t0S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDotS"
+        android:layout_alignEnd="@+id/centralDotS"
+        android:layout_marginStart="-47dp"
+        android:layout_marginEnd="-32dp"
+        android:hint="255"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDot"
+        android:layout_alignEnd="@+id/lastDot"
+        android:layout_marginStart="-47dp"
+        android:layout_marginEnd="-32dp"
+        android:hint="001"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/t1S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centralDotS"
+        android:layout_alignEnd="@+id/lastDotS"
+        android:layout_marginStart="-47dp"
+        android:layout_marginEnd="-32dp"
+        android:hint="255"
+        android:inputType="numberDecimal">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:text="@string/networkcalculation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/centralDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-184dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/centralDotS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-387dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/firstDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t168"
+        android:layout_alignStart="@+id/t168"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-276dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/firstDotS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t168S"
+        android:layout_alignStart="@+id/t168S"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-276dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/lastDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t0"
+        android:layout_alignEnd="@+id/t0"
+        android:layout_marginStart="-20dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-276dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/lastDotS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t0S"
+        android:layout_alignEnd="@+id/t0S"
+        android:layout_marginStart="-20dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-276dp"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-111dp"
+        android:text="@string/typein"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-309dp"
+        android:text="@string/typemask"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/goButton"
+        android:layout_marginTop="-150dp"
+        android:text="@string/addressesnumber"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/hosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/goButton"
+        android:layout_marginTop="-75dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="209dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-630dp"
+        android:text="@string/go">
+
+    </Button>
+
+
+</RelativeLayout>
